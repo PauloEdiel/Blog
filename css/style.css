@@ -53,15 +53,11 @@ nav.menu-principal li {
   font-size: 2em;
   transition: 0.5s;
 }
-
-.menu-principal li a:link{
-  text-decoration: none;
-}
-
 .menu-principal a:hover{
-  transition: .7s;
-  color: #4183D7;
+font-size: 2.2em;
+transition: 0.5s;
 }
+/*  End Menu */
 
 .sombra-caixa {
   border: 1px solid #FFF;
@@ -137,20 +133,34 @@ aside .col-md-3{
   background-color: #263c70;
   height: 150px;
   width: 100%;
-
+}
+.rodape .list-socials{
+  margin-top: 4px;
 }
 
-.row-azul-claro{
-  background-color:#233869;
-  height: 100px;
-  border: solid 1px #162f73;
+.rodape ul{
+  margin-left: 560px;
+}
+.rodape .list-socials li{
+  display: inline-block;
 }
 
-.row-azul-fim p{
-  color: #FFF;
-  font-family: 'Oswald';
-  font-size: 20px;
-  font-weight: bolder;
-  margin: 0 0 -5px;
+/* footer .list-socials a {
+  border: solid 1px azure;
+  border-radius: 40px;
+  display:block;
+  height: 80px;
+  line-height: 80px;
   text-align: center;
+  width: 80px;
+} */
+
+footer .list-socials i{
+  font-size: 60px;
+  padding: 10px;
+}
+
+footer .azul-cima{
+  border-bottom:solid 1px #162f73;
+  height: 100px;
 }
