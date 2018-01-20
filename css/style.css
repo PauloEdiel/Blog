@@ -46,16 +46,18 @@ nav.menu-principal li {
   float: right;
   margin: 0 0 0 50px;
 }
-
 .menu-principal li a{
   color: #ecf0f1;
   font-family: 'Oswald';
   font-size: 2em;
   transition: 0.5s;
+  text-decoration: none;
 }
+
 .menu-principal a:hover{
 font-size: 2.2em;
-transition: 0.5s;
+transition: 0.6s;
+text-decoration: underline;
 }
 /*  End Menu */
 
@@ -145,22 +147,25 @@ aside .col-md-3{
   display: inline-block;
 }
 
-/* footer .list-socials a {
-  border: solid 1px azure;
-  border-radius: 40px;
-  display:block;
-  height: 80px;
-  line-height: 80px;
-  text-align: center;
-  width: 80px;
-} */
-
-footer .list-socials i{
+.list-socials i {
   font-size: 60px;
+  margin-top: 10px;
   padding: 10px;
 }
+.list-socials a:visited {
+  color: #FFF;
+}
 
-footer .azul-cima{
+.list-socials i:hover {
+  color: #162f73  ;
+}
+.azul-cima{
   border-bottom:solid 1px #162f73;
   height: 100px;
+}
+.row-azul-fim p {
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 22px;
+  margin-top: 7px;
 }
