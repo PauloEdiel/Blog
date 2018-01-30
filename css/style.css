@@ -174,3 +174,10 @@ aside .col-md-3{
   font-size: 22px;
   margin-top: 7px;
 }
+/*  ESTILO PÁGINA CARREIRA*/
+
+div.container img {
+  border-radius: 200px;
+  height: 400px;
+  width: 400px;
+}
