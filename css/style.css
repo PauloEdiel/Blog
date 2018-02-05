@@ -6,5 +6,17 @@
 @font-face {
   font-family: 'Oswald';
   src: url("../fonts/Oswald-Regular.ttf");
+  font-size: 1.2em;
 }
-
+/* Celulares */
+@media (max-width:400px){
+  img#header-logo{
+  margin-top: 5%;
+  width: 25%;
+  }
+  header h1{
+    font-size: 2.2em;
+    float: right;
+    margin-top: 12%;
+  }
+}
