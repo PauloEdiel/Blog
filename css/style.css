@@ -9,14 +9,37 @@
   font-size: 1.2em;
 }
 /* Celulares */
-@media (max-width:400px){
+
+/* Telefones em landscape e abaixo */
+@media (min-width: 360px) {
   img#header-logo{
-  margin-top: 5%;
-  width: 25%;
+    margin-top: 4%;
+    width: 23%;
   }
   header h1{
     font-size: 2.2em;
     float: right;
-    margin-top: 12%;
+    color: #263c70;
+    font-family: 'Berkin';
+    margin: 12% 6% 15% 2% ;
+
   }
+
+
+ }
+
+
+
+/* Telefone em landscape a tablet em portrait */
+@media (max-width: 767px) {
+
+}
+
+/* tablet em portrait a landscape e desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+
+}
+
+/* Desktop grande */
+@media (min-width: 1200px) {
 }
