@@ -36,14 +36,19 @@ header h1{
 }
 
 .menu-principal ul{
-  margin: 10px 304px 0px 0;
+    padding-left: 30px;
+    margin: 10px;
+  }
+.menu-principal ul li a{
+  padding-left: 160px;
+
 }
 
 nav.menu-principal li {
   display: inline-block;
   font-weight: bolder;
   text-decoration: none;
-  float: right;
+  float: left;
   margin: 0 0 0 50px;
 }
 .menu-principal li a{
