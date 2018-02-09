@@ -36,10 +36,9 @@ header h1{
 }
 
 .menu-principal ul{
-    padding-left: 30px;
     margin: 10px;
   }
-.menu-principal ul li a{
+.menu-principal ul li {
   padding-left: 160px;
 
 }
