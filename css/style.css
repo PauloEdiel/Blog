@@ -26,27 +26,34 @@
   }
   .menu-principal {  /*Menu de navegação*/
     background-color: #263c70;
+    font-family: 'Oswald';
     height: 60px;
-    width: 100%;
     margin-bottom: 30px;
+    width: 100%;
+
   }
   .container ul {
-    line-height: 50px;
+    line-height: 60px;
     margin-left: -25px;
     text-transform: uppercase;
   }
   nav.menu-principal li {
-    color: #EFEEFE;
     display: inline-block;
     font-weight: bolder;
-    text-decoration: none;
     margin: 0 0 0 50px;
   }
   .menu-principal a{
     color: #FFF;
-    font-size: 14px;
+    font-size: 1.5em;
   }
-  
+
+  .menu-principal  a:visited{
+    color: #FFF;
+    text-decoration: none;
+  }
+  .list-socials a:hover {
+    color: #162f73  ;
+  }
 
 
  }
