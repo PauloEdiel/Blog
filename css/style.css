@@ -13,7 +13,8 @@
 /* Desktop grande */
 @media (min-width: 1200px) {
   header #header-logo{   /* start header*/
-    border-radius: 10px 10px 10px 10px;
+     /* border-radius: 10px 10px 10px 10px; */
+    border-radius: 80%; 
     border: solid 1px white;
     box-shadow: #263c70 1px 1px 5px 1px;
     height: 70px;
