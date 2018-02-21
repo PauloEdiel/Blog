@@ -14,19 +14,19 @@
 @media (min-width: 1200px) {
   header #header-logo{   /* start header*/
      /* border-radius: 10px 10px 10px 10px; */
-    border-radius: 80%; 
+    border-radius: 80%;
     border: solid 1px white;
-    box-shadow: #263c70 1px 1px 5px 1px;
+    box-shadow: #263c70 .1em .1em .5em .1em;
     height: 70px;
-    margin: 8px 0 5px 415px;
-    padding-right: 5px;
+    margin: .8em 0 .5em 29em;
+    padding-right: .5em;
     width: 70px;
   }
 
   header h1{
     color: #263c70;
     float: right;
-    font-size: 40px;
+    font-size: 3em;
     font-family: 'Berkin';
     margin: 20px 350px 0px 0px;
     text-shadow: #888 5px 5px 10px;
@@ -37,7 +37,8 @@
     background-color: #263c70;
     height: 60px;
     width: 100%;
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
+    margin-bottom: 3em;
   }
 
   .menu-principal ul{
@@ -65,7 +66,6 @@
 
   .menu-principal a:hover{
   font-size: 2.2em;
->>>>>>> responsivo
   text-decoration: underline;
   }
   /*  End Menu */
