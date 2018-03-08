@@ -7,7 +7,61 @@
   font-family: 'Oswald';
   src: url("../fonts/Oswald-Regular.ttf");
 }
+/* Celulares */
 
+/* Telefones em landscape e abaixo */
+@media (min-width: 360px) {
+  img#header-logo{
+    margin-top: 4%;
+    width: 23%;
+  }
+  header h1{
+    font-size: 2.2em;
+    float: right;
+    color: #263c70;
+    font-family: 'Berkin';
+    margin: 12% 6% 15% 2% ;
+
+  }
+  .menu-principal {  /*Menu de navegação*/
+    background-color: #263c70;
+    font-family: 'Oswald';
+    margin-bottom: 2em;
+    width: 100%;
+  }
+
+  nav.menu-principal li {
+    display: inline-block;
+    font-weight: bolder;
+    margin: 0 0 0 50px;
+  }
+  .menu-principal a{
+    color: #FFF;
+    font-size: 1.5em;
+  }
+
+  .menu-principal  a:visited{
+    color: #FFF;
+    text-decoration: none;
+  }
+  .list-socials a:hover {
+    color: #162f73  ;
+  }
+
+
+ }
+
+
+
+/* Telefone em landscape a tablet em portrait */
+@media (max-width: 767px) {
+
+}
+
+/* tablet em portrait a landscape e desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+
+}
 
 
 /* Desktop grande */
