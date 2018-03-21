@@ -3,6 +3,7 @@
 
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width:device-width, initial-scale=1">
     <meta name="author" content="Paulo Ediel">
     <meta name="description" content="Blog com dicas e artigos de tecnologia">
     <link rel="stylesheet" href="css/reset.css">
@@ -13,24 +14,36 @@
     <meta name="keywords" content="Tecnologia,linux,Paulo Ediel, dicas,desenvolvimento">
 
     <title>Blog Paulo Cavalcante</title>
-    <div class="container "><!--header -->
-      <header class="cabecalho"> <!--Cabeçalho-->
+  </head>
+  <body>
+    <div class="container c-cabecalho">
+      <!--header -->
+      <header class="cabecalho">
+        <!--Cabeçalho-->
         <img id="header-logo" src="img/logo-ideia.jpeg" alt="Logo Paulo Ediel">
         <h1>Paulo Cavalvante</h1>
-      </header><!--End cabecalho-->
-    </div><!-- end header -->
+      </header>
+      <!--End cabecalho-->
+    </div>
+    <!-- end header -->
 
     <nav class="menu-principal">
       <div class="container">
         <ul>
-          <li><a href="index.html">Home</a></li>
-          <ul>
-            <li><a href="sobre.html">Carreira</a></li>
-            <li> <a href="#redes-sociais">Contato</a> </li>
-          </ul>
-
+          <li>
+            <a href="index.html">Home</a>
+            <ul>
+              <li>
+                <a href="sobre.html">Carreira</a>
+              </li>
+              <li>
+                <a href="#redes-sociais">Contato</a>
+              </li>
+            </ul>
+          </li>
         </ul>
-      </div><!--End menu-container-->
+      </div>
+      <!--End menu-container-->
     </nav>
 
     <section>
@@ -40,44 +53,59 @@
         </div>
       </figure>
       <div class="container">
-      <div class="container sombra-caixa col-md-7" id="texto-history" >
-        <h1 class="text-center">Minha carreira</h1>
-        <p>
-          Tive meu primeiro contato com programação na faculdade de ADS(Análise e Desenvolvimento de sistemas),onde fiz o back-end em PHP de um sistema para gerenciamento de academia,como já utilizava linux e sempre gostei da filosofia opensource migrei para área de infraestrutura, e seguir por um bom tempo.
-        </p>
-        <p>
-          Por sempre ter tido contato com a programação se fez natural o caminho para atuar com devops foi natural , enxergar a infraestrutura como código e a criação de scrips em shell me manteve em contato de alguma forma com a programação , foi quando decidi de vez migrar para o deseolvimento web.
-        </p>
+        <div class="container sombra-caixa col-md-7" id="texto-history">
+          <h1 class="text-center">Minha carreira</h1>
+          <p>
+            Tive meu primeiro contato com programação na faculdade de ADS(Análise e Desenvolvimento de sistemas),onde fiz o back-end em PHP de um sistema para gerenciamento de academia,como já utilizava linux e sempre gostei da filosofia opensource migrei para
+            área de infraestrutura, e seguir por um bom tempo.
+          </p>
+          <p>
+            Por sempre ter tido contato com a programação se fez natural o caminho para atuar com devops foi natural , enxergar a infraestrutura como código e a criação de scrips em shell me manteve em contato de alguma forma com a programação , foi quando
+            decidi de vez migrar para o deseolvimento web.
+          </p>
 
-
-        <p>
-          Como sempre fui incansável em aprender, fui me aperfeiçoando nos conhecimentos que já tinha e comecei e a me especializar em Desenvolvimento de Sistemas e Sites, CMS, HTML5, CSS3. Claro que não fiquei só nisso e fui estudando de tudo um pouco.aspernatur sunt quo consectetur repellat iusto possimus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus quidem vero pariatur, accusantium aliquid impedit mollitia saepe harum, voluptate voluptates reiciendis aspernatur veniam! Fugit aperiam accusamus sit veniam unde fugiat.
-        </p>
-        <p>
-          Decrição dos meus hobbies.
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint doloremque dolorem, amet dignissimos, accusamus eaque libero corporis expedita, numquam cupiditate ducimus omnis quasi alias nemo similique? Facere accusantium, alias et. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia fugit, modi sit ex dolorum? Placeat eos iure dolorum recusandae aliquam sint, porro quam ipsa harum sequi quidem enim assumenda nostrum.
-        </p>
-      </div>
+          <p>
+            Como sempre fui incansável em aprender, fui me aperfeiçoando nos conhecimentos que já tinha e comecei e a me especializar em Desenvolvimento de Sistemas e Sites, CMS, HTML5, CSS3. Claro que não fiquei só nisso e fui estudando de tudo um
+            pouco.aspernatur sunt quo consectetur repellat iusto possimus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus quidem vero pariatur, accusantium aliquid impedit mollitia saepe harum, voluptate voluptates reiciendis aspernatur
+            veniam! Fugit aperiam accusamus sit veniam unde fugiat.
+          </p>
+          <p>
+            Decrição dos meus hobbies. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint doloremque dolorem, amet dignissimos, accusamus eaque libero corporis expedita, numquam cupiditate ducimus omnis quasi alias nemo similique? Facere accusantium,
+            alias et. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia fugit, modi sit ex dolorum? Placeat eos iure dolorum recusandae aliquam sint, porro quam ipsa harum sequi quidem enim assumenda nostrum.
+          </p>
+        </div>
       </div>
     </section>
-
 
     <footer class="rodape" id="redes-sociais">
       <div class="azul-cima">
         <ul class="list-unstyled list-socials">
-          <li><a href="https://www.linkedin.com/in/paulo-ediel-cavalcante-da-silva-67450a7a/" target="_blank"><i class="fa fa-linkedin-square"></i></a></li>
-          <li><a href="https://twitter.com/PauloECSilva" target="_blank"><i class="fa fa-twitter-square"></i></a></li>
-          <li><a href="https://github.com/PauloEdiel" target="_blank"><i class="fa fa-github-square"></i></a></li>
+          <li>
+            <a href="https://www.linkedin.com/in/paulo-ediel-cavalcante-da-silva-67450a7a/" target="_blank">
+              <i class="fa fa-linkedin-square"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://twitter.com/PauloECSilva" target="_blank">
+              <i class="fa fa-twitter-square"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/PauloEdiel" target="_blank">
+              <i class="fa fa-github-square"></i>
+            </a>
+          </li>
         </ul>
-      </div><!--End Azul-cima-->
+      </div>
+      <!--End Azul-cima-->
 
       <div class="row-azul-fim">
-        <p class="text-center">Paulo Cavalcante <i class="fa fa-copyright"> </i> 2018</p>
+        <p class="text-center">Paulo Cavalcante
+          <i class="fa fa-copyright"></i>
+          2018</p>
       </div>
 
     </footer>
-    <script src="lib/jquery/jquery.min.js">
-
-    </script>
+    <script src="lib/jquery/jquery.min.js"></script>
   </body>
 </html>
