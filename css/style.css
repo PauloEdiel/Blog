@@ -3,71 +3,56 @@
   src: url("../fonts/BerkshireSwash-Regular.ttf");
   font-size: 2em;
 }
+
 @font-face {
   font-family: 'Oswald';
   src: url("../fonts/Oswald-Regular.ttf");
 }
+
 /* Celulares */
 
 /* Telefones em landscape e abaixo */
-@media (min-width: 360px) {
-  img#header-logo{
-    margin-top: 4%;
-    width: 23%;
+
+@media (max-width:400px) {
+  header #header-logo {
+    border-radius: 70%;
+    border: solid 1% white;
+    box-shadow: #263c70 .1em .1em .5em .1em;
+    height: 20%;
+    margin: 1em 0 1em 35%;
+    padding-right: 0.4em;
+    width: 25%;
   }
-  header h1{
-    font-size: 2.2em;
-    float: right;
-    color: #263c70;
+  header h1 {
+    color: #263C70;
+    font-size: 2.7em;
     font-family: 'Berkin';
-    margin: 12% 6% 15% 2% ;
-
+    text-align: center;
+    margin-top: -0.4em;
   }
-  .menu-principal {  /*Menu de navegação*/
-    background-color: #263c70;
-    font-family: 'Oswald';
-    margin-bottom: 2em;
+  .menu-principal {
+    /*Menu de navegação*/
+    background-color: #263C70;
+    height: 25%;
     width: 100%;
+    margin-bottom: 3em;
   }
-
-  nav.menu-principal li {
-    display: inline-block;
-    font-weight: bolder;
-    margin: 0 0 0 50px;
-  }
-  .menu-principal a{
-    color: #FFF;
-    font-size: 1.5em;
-  }
-
-  .menu-principal  a:visited{
-    color: #FFF;
-    text-decoration: none;
-  }
-  .list-socials a:hover {
-    color: #162f73  ;
-  }
-
-
- }
-
-
+}
 
 /* Telefone em landscape a tablet em portrait */
-@media (max-width: 767px) {
 
-}
+@media (min-width:401px) and (max-width:670px) {}
 
 /* tablet em portrait a landscape e desktop */
-@media (min-width: 768px) and (max-width: 979px) {
 
-}
-
+@media (min-width: 768px) and (max-width: 979px) {}
 
 /* Desktop grande */
+
 @media (min-width: 1100px) {
-  header #header-logo{   /* start header*/
-     /* border-radius: 10px 10px 10px 10px; */
+  header #header-logo {
+    /* start header*/
+    /* border-radius: 10px 10px 10px 10px; */
     border-radius: 80%;
     border: solid 1% white;
     box-shadow: #263c70 .1em .1em .5em .1em;
@@ -76,8 +61,7 @@
     padding-right: .5em;
     width: 70px;
   }
-
-  header h1{
+  header h1 {
     color: #263c70;
     float: right;
     font-size: 3em;
@@ -86,23 +70,20 @@
     text-shadow: #888 5px 5px 10px;
   }
   /*End header*/
-
-  .menu-principal {  /*Menu de navegação*/
+  .menu-principal {
+    /*Menu de navegação*/
     background-color: #263c70;
     height: 60px;
     width: 100%;
     /* margin-bottom: 30px; */
     margin-bottom: 3em;
   }
-
-  .menu-principal ul{
-      margin: 10px;
-    }
+  .menu-principal ul {
+    margin: 10px;
+  }
   .menu-principal ul li {
     padding-left: 160px;
-
   }
-
   nav.menu-principal li {
     display: inline-block;
     font-weight: bolder;
@@ -110,74 +91,65 @@
     float: left;
     margin: 0 0 0 50px;
   }
-  .menu-principal li a{
+  .menu-principal li a {
     color: #ecf0f1;
     font-family: 'Oswald';
     font-size: 2em;
     transition: 0.6s;
     text-decoration: none;
   }
-
-  .menu-principal a:hover{
-  font-size: 2.2em;
-  text-decoration: underline;
+  .menu-principal a:hover {
+    font-size: 2.2em;
+    text-decoration: underline;
   }
   /*  End Menu */
-
   .sombra-caixa {
     border: 1px solid #FFF;
     border-radius: 8px;
     box-shadow: 1px 1px 4px #6C7A89;
-    margin:10px;
+    margin: 10px;
   }
-
-  .artigos-recentes hr{
+  .artigos-recentes hr {
     border: solid 3px #6C7A89;
-    margin:-5px auto 45px;
+    margin: -5px auto 45px;
     width: 200px;
   }
-
-  .artigos-recentes h1{
+  .artigos-recentes h1 {
     color: rgba(0, 0, 0, 0.75);
     font-family: 'Oswald';
     font-weight: bold;
     font-size: 50px;
     text-align: center;
   }
-
   .artigos-recentes {
     height: 700px;
-    padding-top:50px;
+    padding-top: 50px;
     width: 90%;
   }
-
-
-  .artigos-recentes .quadro-artigos{
+  .artigos-recentes .quadro-artigos {
     height: 400px;
     margin: 0 auto;
     width: 90%;
   }
   .artigos {
     float: left;
-    height:30%;
+    height: 30%;
     margin: 5% 4% 1% 6%;
     width: 40%;
-
   }
-  .artigos h1{
+  .artigos h1 {
     font-size: 3em;
   }
-  .artigos-antigos{
+  .artigos-antigos {
     margin: 40px 10px 30px 5px;
   }
-  .artigos-antigos h2{
+  .artigos-antigos h2 {
     color: rgba(0, 0, 0, 0.8);
     font-family: 'Oswald';
     font-size: 40px;
     font-weight: bold;
     text-align: center;
   }
-
   .title-artigo {
     font-family: 'Oswald';
     font-size: 25px;
@@ -185,41 +157,36 @@
     text-align: center;
     text-decoration: underline;
   }
-
-  .artigos-antigos hr{
+  .artigos-antigos hr {
     border: solid 3px #6C7A89;
-    margin:-5px auto 45px;
+    margin: -5px auto 45px;
     width: 200px;
   }
-
-  .artigos-antigos p{
+  .artigos-antigos p {
     font-family: 'Oswald';
     font-size: 1.3em;
     text-align: center;
   }
-  aside .col-md-3{
+  aside .col-md-3 {
     box-sizing: border-box;
     height: 200px;
     margin-bottom: 50px;
     width: 250px;
   }
-
-  .rodape{
+  .rodape {
     background-color: #263c70;
     height: 150px;
     width: 100%;
   }
-  .rodape .list-socials{
+  .rodape .list-socials {
     margin-top: 4px;
   }
-
-  .rodape ul{
+  .rodape ul {
     margin-left: 41%;
   }
-  .rodape .list-socials li{
+  .rodape .list-socials li {
     display: inline-block;
   }
-
   .list-socials i {
     font-size: 60px;
     margin-top: 10px;
@@ -228,18 +195,17 @@
   .list-socials a {
     color: #FFF;
   }
-  .list-socials a:visited{
+  .list-socials a:visited {
     color: #FFF;
   }
-
   .list-socials a:hover {
-    color: #162f73  ;
+    color: #162f73;
   }
-  .list-socials a{
+  .list-socials a {
     outline: none;
   }
-  .azul-cima{
-    border-bottom:solid 1px #162f73;
+  .azul-cima {
+    border-bottom: solid 1px #162f73;
     height: 100px;
   }
   .row-azul-fim p {
@@ -249,11 +215,9 @@
     margin-top: 7px;
   }
   /*  ESTILO PÁGINA CARREIRA*/
-
   div.container img {
     border-radius: 200px;
     height: 400px;
     width: 400px;
   }
-
 }
