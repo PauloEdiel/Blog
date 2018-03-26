@@ -13,7 +13,7 @@
 
 /* Telefones em landscape e abaixo */
 
-@media (max-width:400px) {
+@media (max-width:360px) {
   header #header-logo {
     border-radius: 70%;
     border: solid 1% white;
@@ -25,17 +25,28 @@
   }
   header h1 {
     color: #263C70;
-    font-size: 2.7em;
     font-family: 'Berkin';
-    text-align: center;
+    font-size: 2.7em;
     margin-top: -0.4em;
+    text-align: center;
   }
   .menu-principal {
     /*Menu de navegação*/
     background-color: #263C70;
     height: 25%;
-    width: 100%;
     margin-bottom: 3em;
+    width: 100%;
+  }
+  .menu-principal ul li a {
+    color: #FFF;
+    float: left;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-left: 1em;
+    padding: 0.5em 0.1em 0.5em 0;
+  }
+  section {
+    text-align: center;
   }
 }
 
