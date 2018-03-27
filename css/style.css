@@ -13,7 +13,7 @@
 
 /* Telefones em landscape e abaixo */
 
-@media (max-width:360px) {
+@media (max-width:380px) {
   header #header-logo {
     border-radius: 70%;
     border: solid 1% white;
@@ -40,6 +40,7 @@
   .menu-principal ul li a {
     color: #FFF;
     float: left;
+    font-family: 'Oswald';
     font-size: 1.5em;
     font-weight: bold;
     margin-left: 1em;
@@ -47,6 +48,27 @@
   }
   section {
     text-align: center;
+  }
+  .artigos-recentes h1#artigo {
+    color: rgba(0, 0, 0, 0.75);
+    font-family: 'Oswald';
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-top: -.8em;
+  }
+  .artigos-recentes hr {
+    border: solid 0.25em #6C7A89;
+    margin-top: -.6em;
+    width: 40%;
+  }
+  .quadro-artigos .sombra-caixa.artigos h1 {
+    border: 0.5em solid #FFF;
+    border-radius: 0.4em;
+    box-shadow: 0.1em 0.1em 0.1em #6C7A89;
+    color: rgba(0, 0, 0, 0.75);
+    font-size: 2em;
+    font-weight: bold;
+    margin-top: .3em;
   }
 }
 
@@ -60,7 +82,7 @@
 
 /* Desktop grande */
 
-@media (min-width: 1100px) {
+@media (min-width: 980px) {
   header #header-logo {
     /* start header*/
     /* border-radius: 10px 10px 10px 10px; */
