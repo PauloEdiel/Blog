@@ -11,8 +11,6 @@
 
 /* Celulares */
 
-/* Telefones em landscape e abaixo */
-
 @media (max-width:385px) {
   header #header-logo {
     border-radius: 70%;
@@ -105,7 +103,7 @@
     width: 100%;
   }
   .rodape ul {
-    margin-left: 8em;
+    margin-left: 7em;
     margin-top: 1em;
   }
   .rodape .list-socials li {
@@ -130,13 +128,13 @@
   }
   .azul-cima {
     border-bottom: solid 1px #162f73;
-    height: 100px;
+    height: .1em;
   }
   .row-azul-fim p {
     color: #FFF;
     font-family: "Oswald";
-    font-size: 22px;
-    margin-top: 7px;
+    font-size: 1.65em;
+    margin-top: 1.7em;
   }
 }
 
