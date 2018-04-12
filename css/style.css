@@ -13,7 +13,7 @@
 
 /* Telefones em landscape e abaixo */
 
-@media (max-width:380px) {
+@media (max-width:385px) {
   header #header-logo {
     border-radius: 70%;
     border: solid 1% white;
@@ -46,7 +46,7 @@
     margin-left: 1em;
     padding: 0.5em 0.1em 0.5em 0;
   }
-  section {
+  section, aside {
     text-align: center;
   }
   .artigos-recentes h1#artigo {
@@ -64,17 +64,89 @@
   .quadro-artigos .sombra-caixa.artigos h1 {
     border: 0.5em solid #FFF;
     border-radius: 0.4em;
-    box-shadow: 0.1em 0.1em 0.1em #6C7A89;
+    box-shadow: 0.1em 0.1em 0.4em #6C7A89;
     color: rgba(0, 0, 0, 0.75);
     font-size: 2em;
     font-weight: bold;
     margin-top: .3em;
   }
+  article h2 {
+    color: rgba(0, 0, 0, 0.75);
+    font-family: 'Oswald';
+    font-size: 2.5em;
+    font-weight: bold;
+  }
+  article hr {
+    border: solid 0.25em #6C7A89;
+    margin-top: -.6em;
+    width: 65%;
+  }
+  aside.artigos-antigos {
+    margin-bottom: 2em;
+  }
+  aside .sombra-caixa {
+    border: 0.5em solid #FFF;
+    border-radius: 0.4em;
+    box-shadow: 0.1em 0.1em 0.4em #6C7A89;
+    color: rgba(0, 0, 0, 0.75);
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: .3em;
+  }
+  footer {
+    background-color: #263C70;
+    height: 25%;
+    margin-bottom: 3em;
+    width: 100%;
+  }
+  .rodape {
+    background-color: #263c70;
+    height: 5em;
+    width: 100%;
+  }
+  .rodape ul {
+    margin-left: 8em;
+    margin-top: 1em;
+  }
+  .rodape .list-socials li {
+    display: inline-block;
+  }
+  .list-socials i {
+    font-size: 3em;
+    /* margin-top: .1em; */
+    padding: .1em;
+  }
+  .list-socials a {
+    color: #FFF;
+  }
+  .list-socials a:visited {
+    color: #FFF;
+  }
+  .list-socials a:hover {
+    color: #162f73;
+  }
+  .list-socials a {
+    outline: none;
+  }
+  .azul-cima {
+    border-bottom: solid 1px #162f73;
+    height: 100px;
+  }
+  .row-azul-fim p {
+    color: #FFF;
+    font-family: "Oswald";
+    font-size: 22px;
+    margin-top: 7px;
+  }
+}
+
+}
+
 }
 
 /* Telefone em landscape a tablet em portrait */
 
-@media (min-width:401px) and (max-width:670px) {}
+@media (min-width:386px) and (max-width:670px) {}
 
 /* tablet em portrait a landscape e desktop */
 
