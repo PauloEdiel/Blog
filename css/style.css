@@ -44,6 +44,11 @@
     margin-left: 1em;
     padding: 0.5em 0.1em 0.5em 0;
   }
+  .menu-principal .menu {
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+  }
   section, aside {
     text-align: center;
   }
@@ -103,7 +108,7 @@
     width: 100%;
   }
   .rodape ul {
-    margin-left: 7em;
+    margin-left: 8em;
     margin-top: 1em;
   }
   .rodape .list-socials li {
@@ -138,13 +143,37 @@
   }
 }
 
-
-
-}
-
 /* Telefone em landscape a tablet em portrait */
 
-@media (min-width:386px) and (max-width:670px) {}
+@media (min-width:400px) and (max-width:600px) {
+  header #header-logo {
+    border-radius: 70%;
+    box-shadow: #263c70 .1em .1em .5em .1em;
+    height: 20%;
+    margin: .5em 0 1.5em 10.5em;
+    padding-right: 0.4em;
+    width: 20%;
+  }
+  header h1 {
+    color: #263C70;
+    font-family: 'Berkin';
+    font-size: 2.7em;
+    margin-top: -0.4em;
+    text-align: center;
+  }
+  .menu-principal .menu {
+    height: 100%;
+    margin: 0 auto;
+    width: 80%;
+  }
+  .menu-principal {
+    /*Menu de navegação*/
+    background-color: #263C70;
+    height: 4em;
+    margin-bottom: 3em;
+    width: 100%;
+  }
+}
 
 /* tablet em portrait a landscape e desktop */
 
@@ -152,7 +181,7 @@
 
 /* Desktop grande */
 
- @media (min-width: 980px) {
+@media (min-width: 980px) {
   header #header-logo {
     /* start header*/
     /* border-radius: 10px 10px 10px 10px; */
@@ -180,12 +209,10 @@
     width: 100%;
     margin-bottom: 3em;
   }
-
-.menu-principal ul {
-  line-height: 60px;
-  margin-left: 34%;
-}
-
+  .menu-principal ul {
+    line-height: 60px;
+    margin-left: 34%;
+  }
   .menu-principal ul li {
     padding-left: 10px;
   }
@@ -325,4 +352,4 @@
     height: 400px;
     width: 400px;
   }
- }
+}
