@@ -12,7 +12,7 @@
 /* Celulares */
 
 @media (max-width:399px) {
-  header #header-logo {
+  #header-logo {
     border-radius: 70%;
     border: solid 1% white;
     box-shadow: #263c70 .1em .1em .5em .1em;
@@ -21,7 +21,7 @@
     padding-right: 0.4em;
     width: 25%;
   }
-  header h1 {
+  .cabecalho>h1 {
     color: #263C70;
     font-family: 'Berkin';
     font-size: 2.7em;
@@ -38,7 +38,8 @@
   .menu-principal ul {
     line-height: 3.5em;
   }
-  .menu-principal ul li a {
+  /* .menu-principal ul li a { */
+  .menu-principal a {
     color: #FFF;
     float: left;
     font-family: 'Oswald';
@@ -52,10 +53,7 @@
     height: 100%;
     margin: 0 auto;
   }
-  section, aside {
-    text-align: center;
-  }
-  .artigos-recentes h1#artigo {
+  .artigos-recentes #artigo {
     color: rgba(0, 0, 0, 0.75);
     font-family: 'Oswald';
     font-size: 2.5em;
@@ -76,18 +74,18 @@
     font-weight: bold;
     margin-top: .3em;
   }
-  article h2 {
+  .container h2 {
     color: rgba(0, 0, 0, 0.75);
     font-family: 'Oswald';
     font-size: 2.5em;
     font-weight: bold;
   }
-  article hr {
+  #trace-artigo {
     border: solid 0.25em #6C7A89;
     margin-top: -.6em;
     width: 65%;
   }
-  aside.artigos-antigos {
+  .artigos-antigos {
     margin-bottom: 2em;
   }
   aside .sombra-caixa {
@@ -99,12 +97,12 @@
     font-weight: bold;
     margin-top: .3em;
   }
-  footer {
+  /* footer {
     background-color: #263C70;
     height: 25%;
     margin-bottom: 3em;
     width: 100%;
-  }
+  } */
   .rodape {
     background-color: #263c70;
     height: 5em;
